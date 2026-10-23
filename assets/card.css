@@ -510,12 +510,11 @@ body .bottom_bar{
     font-weight: 600;
 }
 
-.card_1{
-    background-image: url('https://i.imgur.com/07ktkye.png');
-}
+.card_1, .card_2 {
+    background: linear-gradient(135deg, #2b2310 0%, #16181b 50%, #0d0e10 100%) !important;
+    background-size: cover;
+    background-position: center;
 
-.card_2{
-    background-image: url('https://i.imgur.com/uowv4a7.png');
 }
 
 .page_other .confirm_title{
